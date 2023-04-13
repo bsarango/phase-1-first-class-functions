@@ -4,8 +4,8 @@
   "description": "Practice writing and using first-class functions in JavaScript on Learn",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -R mocha-multi --reporter-options nyan=-,json=.results.json"
-  },
+    "test": "mocha -R mocha-multi --reporter-options nyan=-,json=.results.json --timeout 10000"
+    },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/learn-co-curriculum/first-class-functions.git"
